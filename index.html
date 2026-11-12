@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tulasi Sri Bharathi Vavilala | Senior Data Engineer &amp; BI Specialist</title>
+<meta name="description" content="Senior Data Engineer and BI Specialist building trusted cloud data platforms (BigQuery, Snowflake), healthcare FHIR pipelines and GenAI analytics. Moving into AI engineering.">
+<meta property="og:title" content="Tulasi Sri Bharathi Vavilala | Senior Data Engineer &amp; BI Specialist">
+<meta property="og:description" content="Cloud data pipelines, FHIR validation, Snowflake Cortex GenAI and executive BI. Hyderabad, India.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%8A%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF2F7; --surface:#FFFFFF; --ink:#13203A; --muted:#51607A; --line:#CBD5E3;
+  --accent:#2548E8; --accent-soft:#E2E8FF; --amber:#B86E00; --amber-soft:#FFF0D6;
+  --head:'Bricolage Grotesque','Segoe UI',Arial,sans-serif;
+  --body:'IBM Plex Sans','Segoe UI',Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0F1626; --surface:#17203A; --ink:#E8EDF7; --muted:#9AA8C4; --line:#2B3858;
+        --accent:#8FA6FF; --accent-soft:#222F5C; --amber:#F2B04A; --amber-soft:#3A2E14;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+.brand{font-family:var(--head);font-weight:700;text-decoration:none;color:var(--ink)}
+nav a{margin-left:22px;text-decoration:none;color:var(--muted);font-size:15px;font-weight:500}
+nav a:hover{color:var(--ink)}
+@media(max-width:700px){nav a:not(.cta-nav){display:none}}
+.cta-nav{background:var(--accent);color:#fff;padding:8px 16px;border-radius:8px}
+@media (prefers-color-scheme:dark){.cta-nav{color:#0F1626}}
+.cta-nav:hover{color:#fff;filter:brightness(1.1)}
+
+/* Hero */
+.hero{padding:88px 0 56px}
+.hero h1{font-family:var(--head);font-weight:700;font-size:clamp(2.4rem,6vw,4.4rem);line-height:1.04;letter-spacing:-.02em;margin:0 0 24px;max-width:15ch}
+.hero p.lede{font-size:1.2rem;color:var(--muted);max-width:60ch;margin:0 0 32px}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 22px;border-radius:10px;font-weight:600;text-decoration:none;border:2px solid var(--accent)}
+.btn.primary{background:var(--accent);color:#fff}
+@media (prefers-color-scheme:dark){.btn.primary{color:#0F1626}}
+.btn.ghost{color:var(--accent)}
+.btn:hover{filter:brightness(1.08)}
+
+/* Career lineage: the one memorable element */
+.lineage{margin-top:64px;position:relative;padding-top:30px}
+.lineage::before{content:"";position:absolute;left:0;top:38px;height:3px;width:0;background:linear-gradient(90deg,var(--accent),var(--amber));animation:draw 1.6s .2s ease-out forwards}
+@keyframes draw{to{width:100%}}
+.stops{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.stop{position:relative;padding-top:26px}
+.stop::before{content:"";position:absolute;left:0;top:-1px;width:16px;height:16px;border-radius:50%;background:var(--bg);border:3px solid var(--accent)}
+.stop.next::before{border-color:var(--amber);border-style:dashed}
+.stop .when{font-weight:600;font-size:.9rem;color:var(--muted)}
+.stop h3{font-family:var(--head);font-size:1.15rem;margin:2px 0 4px;line-height:1.25}
+.stop p{margin:0;font-size:.95rem;color:var(--muted)}
+@media(max-width:800px){.stops{grid-template-columns:1fr 1fr}.lineage::before{display:none}.stop::before{display:none}.stop{padding-top:0;border-top:3px solid var(--accent);padding-top:12px}.stop.next{border-color:var(--amber)}}
+@media(prefers-reduced-motion:reduce){.lineage::before{animation:none;width:100%}html{scroll-behavior:auto}}
+
+/* Sections */
+section{padding:72px 0;border-top:1px solid var(--line)}
+h2{font-family:var(--head);font-size:clamp(1.8rem,3.6vw,2.5rem);letter-spacing:-.01em;margin:0 0 12px;line-height:1.15}
+.sub{color:var(--muted);max-width:62ch;margin:0 0 40px}
+
+/* Delivery record table */
+.record{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.record th,.record td{text-align:left;padding:14px 18px;border-bottom:1px solid var(--line);vertical-align:top}
+.record tr:last-child td,.record tr:last-child th{border-bottom:0}
+.record th{width:34%;font-family:var(--head);font-size:1.15rem;font-weight:700}
+.record td{color:var(--muted)}
+@media(max-width:700px){.record th,.record td{display:block;width:100%;padding:10px 16px}.record th{padding-bottom:0}}
+
+/* Case studies */
+.case{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:32px;margin-bottom:28px}
+.case h3{font-family:var(--head);font-size:1.5rem;margin:0 0 4px}
+.case .tag{color:var(--amber);font-weight:600;font-size:.92rem;margin-bottom:18px}
+.case dl{display:grid;grid-template-columns:130px 1fr;gap:12px 24px;margin:0}
+.case dt{font-weight:600}
+.case dd{margin:0;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chip{background:var(--accent-soft);color:var(--accent);padding:4px 12px;border-radius:99px;font-size:.88rem;font-weight:500}
+@media(max-width:640px){.case{padding:22px}.case dl{grid-template-columns:1fr;gap:2px}.case dd{margin-bottom:12px}}
+
+/* Experience */
+.job{display:grid;grid-template-columns:200px 1fr;gap:8px 32px;padding:26px 0;border-bottom:1px solid var(--line)}
+.job:last-child{border-bottom:0}
+.job .meta{color:var(--muted);font-size:.95rem}
+.job h3{font-family:var(--head);font-size:1.25rem;margin:0}
+.job .org{color:var(--muted);margin:0 0 10px}
+.job ul{margin:0;padding-left:20px;color:var(--muted)}
+.job li{margin-bottom:6px}
+@media(max-width:700px){.job{grid-template-columns:1fr}}
+
+/* Skills */
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.skill{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px}
+.skill h3{font-family:var(--head);margin:0 0 10px;font-size:1.1rem}
+.skill p{margin:0;color:var(--muted);font-size:.97rem}
+.skill.growing{border-style:dashed;border-color:var(--amber);background:var(--amber-soft)}
+
+/* Lab */
+.lab{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.lab article{border:2px dashed var(--line);border-radius:12px;padding:22px}
+.lab .status{display:inline-block;font-weight:600;font-size:.85rem;color:var(--amber);margin-bottom:6px}
+.lab h3{font-family:var(--head);margin:0 0 8px;font-size:1.2rem;line-height:1.25}
+.lab p{margin:0;color:var(--muted);font-size:.97rem}
+
+/* Certs */
+.certs{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.certs li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 18px}
+
+/* Contact */
+.contact{text-align:left}
+.contact a.mail{font-family:var(--head);font-weight:700;font-size:clamp(1.3rem,3.4vw,2.1rem);word-break:break-all}
+footer{padding:32px 0;color:var(--muted);font-size:.92rem;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">Tulasi Sri Bharathi</a>
+    <nav aria-label="Primary">
+      <a href="#impact">Impact</a>
+      <a href="#work">Case studies</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#lab">AI lab</a>
+      <a class="cta-nav" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="wrap">
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Data you can trust, built to answer questions.</h1>
+  <p class="lede">I’m Tulasi, a Senior Data Engineer and BI Specialist at Deloitte Consulting. I design cloud data pipelines on BigQuery and Snowflake, validate healthcare data against FHIR and HL7, and ship executive dashboards and GenAI analytics that business leaders actually use. I’m now building toward AI engineering: agentic workflows and RAG on top of well-governed data.</p>
+  <div class="btns">
+    <a class="btn primary" href="#work">See my work</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/tulasi-sri-bharathi-vavilala/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn ghost" href="mailto:bharathivavilala2001@gmail.com">Email me</a>
+  </div>
+
+  <div class="lineage" aria-label="Career progression">
+    <div class="stops">
+      <div class="stop"><div class="when">2022</div><h3>Enterprise BI</h3><p>Tableau at global scale, with performance tuning and L1/L2 support.</p></div>
+      <div class="stop"><div class="when">2025</div><h3>Warehouse + GenAI</h3><p>Snowflake views, Power BI and a Cortex Analyst chatbot.</p></div>
+      <div class="stop"><div class="when">2026</div><h3>Data engineering lead</h3><p>BigQuery ETL and FHIR validation for healthcare, leading a team.</p></div>
+      <div class="stop next"><div class="when">Next</div><h3>AI engineering</h3><p>Agentic AI, RAG and LLM evaluation on governed data.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- IMPACT -->
+<section id="impact">
+  <h2>Delivery record</h2>
+  <p class="sub">Numbers from real enterprise engagements across Healthcare &amp; Life Sciences, Technology, Media &amp; Telecom, and Construction.</p>
+  <table class="record">
+    <tr><th>12+ pipelines</th><td>BigQuery ETL pipelines, with 60+ FHIR validation scripts across 6 clinical resources.</td></tr>
+    <tr><th>99% accuracy</th><td>Snowflake Cortex GenAI chatbot with 195+ verified and 390+ validation queries, recognised at a 3,000+ employee town hall.</td></tr>
+    <tr><th>2,000+ workbooks</th><td>Tableau split migration across 4 servers with zero critical errors and sign-off from 200+ stakeholders.</td></tr>
+    <tr><th>15s to 5s</th><td>Executive dashboard load time cut by 50%, which earned a company Applause Award.</td></tr>
+    <tr><th>15+ developers</th><td>Mentored across five engagements, including sub-teams of 3 to 6 people.</td></tr>
+  </table>
+</section>
+
+<!-- CASE STUDIES -->
+<section id="work">
+  <h2>Case studies</h2>
+  <p class="sub">Three projects, told as problem, approach and result. Client names are withheld for confidentiality.</p>
+
+  <article class="case">
+    <h3>FHIR data reconciliation on BigQuery</h3>
+    <div class="tag">Healthcare &amp; Life Sciences · Senior Data Engineer · 2026</div>
+    <dl>
+      <dt>Problem</dt><dd>Clinical data had to be reconciled between an enterprise HL7 feed and Clarity, and mismatches needed to be found before Go-Live.</dd>
+      <dt>Approach</dt><dd>Architected 12+ BigQuery ETL pipelines and wrote 60+ FHIR validation scripts across 6 clinical resources. Led UAT across 7 resources and authored the enterprise Validation Runbook.</dd>
+      <dt>Result</dt><dd>A scalable, HL7-compliant reconciliation foundation, with defects resolved in real time with the client and a team of 5 developers guided through Go-Live.</dd>
+    </dl>
+    <div class="chips"><span class="chip">BigQuery</span><span class="chip">GCP</span><span class="chip">FHIR / HL7</span><span class="chip">SQL</span><span class="chip">Airflow</span><span class="chip">Validation frameworks</span></div>
+  </article>
+
+  <article class="case">
+    <h3>Snowflake Cortex GenAI chatbot</h3>
+    <div class="tag">Healthcare &amp; Life Sciences · BI Developer &amp; Data Engineer · 2025–2026</div>
+    <dl>
+      <dt>Problem</dt><dd>Business users needed answers from governed data without waiting on an analyst or writing SQL.</dd>
+      <dt>Approach</dt><dd>Built a natural-language chatbot on Snowflake Cortex Analyst and Semantic Views. Curated 195+ verified queries and 390+ validation queries to test it before release.</dd>
+      <dt>Result</dt><dd>99% data accuracy, recognition at a 3,000+ employee town hall, and a launch on the client’s public website.</dd>
+    </dl>
+    <div class="chips"><span class="chip">Snowflake Cortex Analyst</span><span class="chip">Semantic Views</span><span class="chip">GenAI</span><span class="chip">Evaluation queries</span></div>
+  </article>
+
+  <article class="case">
+    <h3>Tableau split migration at enterprise scale</h3>
+    <div class="tag">Technology, Media &amp; Telecom · BI Analyst · 2022–2025</div>
+    <dl>
+      <dt>Problem</dt><dd>A global client had to split its Tableau estate across two business units without breaking reports people relied on.</dd>
+      <dt>Approach</dt><dd>Led delivery of 2,000+ workbooks onto 4 Tableau Servers. Resolved firewall and connectivity issues across 40+ database servers and ran validation walkthroughs with 5+ business teams.</dd>
+      <dt>Result</dt><dd>Zero critical errors and sign-off from 200+ stakeholders.</dd>
+    </dl>
+    <div class="chips"><span class="chip">Tableau Desktop &amp; Server</span><span class="chip">SQL</span><span class="chip">Migration</span><span class="chip">Stakeholder management</span></div>
+  </article>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <h2>Experience</h2>
+  <p class="sub">Deloitte Consulting India Pvt. Ltd., Hyderabad.</p>
+
+  <div class="job">
+    <div class="meta">Mar 2026 – Present</div>
+    <div>
+      <h3>Senior Data Engineer, GCP / BigQuery</h3>
+      <p class="org">Consultant (L35) · Healthcare &amp; Life Sciences</p>
+      <ul>
+        <li>Architected 12+ BigQuery ETL pipelines and 60+ FHIR validation scripts across 6 clinical resources.</li>
+        <li>Led UAT validations across 7 resources and authored the enterprise Validation Runbook.</li>
+        <li>Mentored 5 developers and served as primary technical escalation point through Go-Live.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="job">
+    <div class="meta">Apr 2025 – Mar 2026</div>
+    <div>
+      <h3>BI Developer &amp; Data Engineer, Power BI / Snowflake</h3>
+      <p class="org">Consultant (L35) · Healthcare &amp; Life Sciences</p>
+      <ul>
+        <li>Built a Snowflake Cortex GenAI chatbot (195+ verified and 390+ validation queries, 99% accuracy).</li>
+        <li>Developed 20 Power BI dashboards and architected 29 Snowflake views for executive reporting.</li>
+        <li>Led and mentored 2 team members across GenAI and BI workstreams, owning the Voice of Customer deliverable.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="job">
+    <div class="meta">Jun 2022 – Apr 2025</div>
+    <div>
+      <h3>Tableau Developer / BI Analyst</h3>
+      <p class="org">Analyst (L25) · Technology, Media &amp; Telecom, CRM Analytics, Healthcare, Construction</p>
+      <ul>
+        <li>Led a 2,000+ workbook Tableau split migration with zero critical errors.</li>
+        <li>Migrated 9 Tableau and 16 CRM-analytics dashboards to Snowflake at 95% data reliability.</li>
+        <li>Monitored 45+ automated data pipelines with round-the-clock L1/L2 support.</li>
+        <li>Cut a healthcare executive dashboard’s load time by 50% (15s to 5s) and received an Applause Award.</li>
+        <li>Enhanced 13 brand-performance dashboards to CEO/CXO standard for a biopharma leadership team.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+  <p class="sub">Grouped by how I use them, not alphabetically.</p>
+  <div class="skills">
+    <div class="skill"><h3>Cloud data platforms</h3><p>Google BigQuery, Snowflake, GCP, Cloud Dataflow, Azure fundamentals</p></div>
+    <div class="skill"><h3>Data engineering</h3><p>ETL/ELT design, data modelling, STTM mapping, validation frameworks, performance tuning, Apache Airflow</p></div>
+    <div class="skill"><h3>Languages</h3><p>SQL (advanced), Python, YAML, C, C++</p></div>
+    <div class="skill"><h3>BI and visualisation</h3><p>Power BI (Desktop and Service), Tableau (Desktop and Server)</p></div>
+    <div class="skill"><h3>Delivery and leadership</h3><p>Offshore team leadership, mentoring, stakeholder management, UAT, Go-Live and hypercare ownership, Git, Agile/Scrum</p></div>
+    <div class="skill growing"><h3>AI, currently deepening</h3><p>Hands-on with Snowflake Cortex Analyst and Semantic Views. Building depth in agentic AI, RAG, embeddings and LLM evaluation.</p></div>
+  </div>
+</section>
+
+<!-- AI LAB -->
+<section id="lab">
+  <h2>AI engineering lab</h2>
+  <p class="sub">Where I’m taking data engineering next. Each project pairs a data-quality habit with an AI technique. Links go live as each one ships.</p>
+  <div class="lab">
+    <!-- REPLACE each card with a real GitHub link and demo once built -->
+    <article><span class="status">Building next</span><h3>RAG over FHIR documentation</h3><p>Chunking, embeddings and retrieval with measured recall, so answers cite their source.</p></article>
+    <article><span class="status">Building next</span><h3>Agentic data-quality assistant</h3><p>An agent that runs validation SQL, explains mismatches and proposes fixes, with a human approving changes.</p></article>
+    <article><span class="status">Building next</span><h3>LLM evaluation harness</h3><p>Turning verified-query sets, like the one behind my Cortex chatbot, into a repeatable accuracy benchmark.</p></article>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certs">
+  <h2>Certifications</h2>
+  <p class="sub">&nbsp;</p>
+  <ul class="certs">
+    <li>Snowflake SnowPro Core (COF-C02)</li>
+    <li>Microsoft Certified: Power BI Data Analyst Associate (PL-300)</li>
+    <li>Microsoft Certified: Azure Data Fundamentals (DP-900)</li>
+    <li>Google Cloud Associate Cloud Engineer</li>
+    <li>Google Cloud Digital Leader</li>
+    <li>Career Essentials in GenAI by Microsoft</li>
+    <li>Dataiku Core Designer</li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Let’s talk</h2>
+  <p class="sub">Open to conversations about data engineering, analytics platforms and applied AI roles.</p>
+  <p><a class="mail" href="mailto:bharathivavilala2001@gmail.com">bharathivavilala2001@gmail.com</a></p>
+  <p><a href="https://www.linkedin.com/in/tulasi-sri-bharathi-vavilala/" target="_blank" rel="noopener">linkedin.com/in/tulasi-sri-bharathi-vavilala</a> · Hyderabad, India</p>
+</section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="yr">2026</span> Tulasi Sri Bharathi Vavilala. Client names and data are withheld for confidentiality.</div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
